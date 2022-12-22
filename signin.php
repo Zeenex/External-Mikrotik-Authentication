@@ -58,6 +58,6 @@ if (!$pfw_result) {
 }
 mysqli_close($pfw_link);
 
-header('Location: http://192.168.10.1/login?username=user1&password=user1'); 
+header('Location: http://192.168.10.1/login'); 
 die();
 ?>
